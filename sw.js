@@ -1,5 +1,5 @@
 /* CarCare Studio PWA — increment VERSION on each release. */
-const VERSION = '1.2.0';
+const VERSION = '1.3.0';
 const ROOT = new URL(self.registration.scope);
 const PREFIX = 'carcare-pwa:' + ROOT.pathname + ':';
 const CACHE = PREFIX + VERSION;
